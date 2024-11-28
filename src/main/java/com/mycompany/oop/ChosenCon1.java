@@ -109,7 +109,17 @@ public class ChosenCon1 extends javax.swing.JFrame {
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
+    private void jBuy1ActionPerformed(java.awt.event.ActionEvent evt) {                                      
+        SeatPlan1 seat = new SeatPlan1 ();
+        seat.setVisible(true);
+        setVisible (false);
+    }                                     
 
+    private void jBuy2ActionPerformed(java.awt.event.ActionEvent evt) {                                      
+        SeatPlan1 seat = new SeatPlan1 ();
+        seat.setVisible(true);
+        setVisible (false);
+    }        
     /**
      * @param args the command line arguments
      */
